@@ -1,38 +1,18 @@
-.App {
-  text-align: center;
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;700&family=Encode+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-body; /* Applies 'Encode Sans' globally */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-wrapper {
+  @apply relative bg-lightPink rounded-2xl max-w-sm overflow-hidden shadow-lg p-4 pt-[66.67%];
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-content {
+  @apply absolute inset-0 flex flex-col items-center justify-center;
 }
