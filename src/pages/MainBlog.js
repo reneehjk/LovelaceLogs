@@ -4,7 +4,7 @@ import Image1 from '../assets/email.png'
 
 const MainBlog = () => {
     return (
-        <div>
+        <div className="">
             <Card 
                 imageSrc={Image1} 
                 title="Card Title" 
