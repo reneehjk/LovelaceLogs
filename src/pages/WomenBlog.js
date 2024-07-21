@@ -1,17 +1,29 @@
 import React from "react";
 import Card from '../components/Card';
 import BlogNav from "../components/BlogNav";
-import Image1 from '../assets/email.png';
 import Miranda from '../assets/Miranda.jpg';
 import Marissa from '../assets/Marissa.jpg';
 import Radia from '../assets/Radia.jpg';
 import Elizabeth from '../assets/Elizabeth.jpg';
+import Ada from '../assets/ada.png';
+import Sanjana from '../assets/sanjana.jpeg';
+import Manika from '../assets/manika.jpeg';
+import Shagun from '../assets/shagun.jpeg';
+import Akhila from '../assets/akhila.jpeg';
+import Aditi from '../assets/aditi.jpeg';
+import Vidya from '../assets/vidya.jpeg';
 
 const WomenBlog = () => {
     return (
         <div>
             <BlogNav />
             <div className="flex flex-wrap justify-center gap-20 my-20 px-4"> 
+                <Card 
+                    imageSrc={Ada} 
+                    title="Ada Lovelace" 
+                    subtitle="The first computer programmmer."
+                    link="https://www.historyextra.com/period/modern/ada-lovelace-stem-women-computing-science-facts-life/ "
+                />
                 <Card 
                     imageSrc={Miranda} 
                     title="Miranda Teboh-Ewungkem" 
@@ -37,47 +49,41 @@ const WomenBlog = () => {
                     link="https://www.womenshistory.org/education-resources/biographies/elizabeth-blackwell"
                 />
                 <Card 
-                    imageSrc={Image1} 
-                    title="Ada Lovelace" 
-                    subtitle="The first computer programmmer."
-                    link="https://www.historyextra.com/period/modern/ada-lovelace-stem-women-computing-science-facts-life/ "
-                />
-                <Card 
-                    imageSrc={Image1} 
+                    imageSrc={Sanjana} 
                     title="Sanjana Kandi" 
                     subtitle="Senior System Software Engineer."
                     link="https://www.linkedin.com/in/sanjanakandi/"
                 />
                 <Card 
-                    imageSrc={Image1} 
+                    imageSrc={Manika} 
                     title="Manika Kapoor" 
                     subtitle="Senior Perception Software Engineer."
                     link="https://www.linkedin.com/in/manikakapoor/"
                 />
                 <Card 
-                    imageSrc={Image1} 
+                    imageSrc={Shagun} 
                     title="Shagun Khare" 
                     subtitle="Computer Science @ UIUC | SWE Intern @ William Blair."
                     link="https://www.linkedin.com/in/shagunkhare917/ "
                 />
                 <Card 
-                    imageSrc={Image1} 
+                    imageSrc={Akhila} 
                     title="Akhila Yellapragada" 
                     subtitle="Summer Analyst @ Morgan Stanley | CS + FinTech at University of Georgia"
                     link="https://www.linkedin.com/in/akhilayellapragada/ "
                 />
                 <Card 
-                    imageSrc={Image1} 
+                    imageSrc={Aditi} 
                     title="Aditi Godbole" 
                     subtitle="Senior Data Analyst @ SAP."
                     link="https://www.linkedin.com/in/aditigodbole/"
                 />
                 <Card 
-                    imageSrc={Image1} 
+                    imageSrc={Vidya} 
                     title="Vidya Bhardwaj" 
                     subtitle="CS @ UIUC | Board @ GirlCon | Director of Education @ Encode Justice."
                     link="https://www.linkedin.com/in/vidyab03/ "
-                />     
+                />
             </div>
         </div>
     );
