@@ -1,7 +1,6 @@
-// src/App.js
 import React from 'react';
-import MainBlog from './pages/MainBlog';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import MainBlog from './pages/MainBlog';
 import LandingPage from './pages/LandingPage';
 import NavBar from './pages/NavBar';
 import AboutUs from './pages/AboutUs';
@@ -13,13 +12,12 @@ import Alanna from './pages/blogs/AlannaDIML.js';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/lovelace-logs">
       <div className="bg-gray-100 min-h-screen flex flex-col">
         <NavBar />
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<LandingPage />} />
-            <Route path="/lovelace-logs" element={<LandingPage />} />
             <Route path="/blog" element={<MainBlog />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/women" element={<WomenBlog />} />
