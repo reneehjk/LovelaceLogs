@@ -9,7 +9,7 @@ import WomenBlog from './pages/WomenBlog';
 import ExperienceBlog from './pages/ExperienceBlog';
 import TipsBlog from './pages/TipsBlog';
 import OpportunityBlog from './pages/OpportunityBlog';
-//import Alanna from './pages/blogs/AlannaDIML.js';
+import Alanna from './pages/blogs/AlannaDIML.js';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
             <Route path="/experience" element={<ExperienceBlog />} />
             <Route path="/tips" element={<TipsBlog />} />
             <Route path="/opportunity" element={<OpportunityBlog />} />
-            {/* <Route path="/alannasdayinthelife" element={<Alanna />} /> */}
+            <Route path="/alannasdayinthelife" element={<Alanna />} />
           </Routes>
         </main>
       </div>
