@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b9af179d.css",
-    "main.js": "/static/js/main.488d564f.js",
+    "main.js": "/static/js/main.5b803050.js",
     "static/js/453.559f9b77.chunk.js": "/static/js/453.559f9b77.chunk.js",
     "static/media/Alan.png": "/static/media/Alan.36a80c2922b318711ff5.png",
     "static/media/women-in-tech.png": "/static/media/women-in-tech.a52ca553778571515c70.png",
@@ -26,11 +26,11 @@
     "static/media/scholarship.jpg": "/static/media/scholarship.5cc20df9308468343c22.jpg",
     "index.html": "/index.html",
     "main.b9af179d.css.map": "/static/css/main.b9af179d.css.map",
-    "main.488d564f.js.map": "/static/js/main.488d564f.js.map",
+    "main.5b803050.js.map": "/static/js/main.5b803050.js.map",
     "453.559f9b77.chunk.js.map": "/static/js/453.559f9b77.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9af179d.css",
-    "static/js/main.488d564f.js"
+    "static/js/main.5b803050.js"
   ]
 }
