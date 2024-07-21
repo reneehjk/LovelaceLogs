@@ -18,7 +18,8 @@ function App() {
         <NavBar />
         <main className="flex-grow">
           <Routes>
-            <Route path="" element={<LandingPage />} />
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/lovelace-logs" element={<LandingPage />} />
             <Route path="/blog" element={<MainBlog />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/women" element={<WomenBlog />} />
