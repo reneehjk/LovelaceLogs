@@ -1,7 +1,8 @@
 {
-  "name": "http://reneehjk.github.io/lovelace-logs",
+  "name": "lovelace-logs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://reneehjk.github.io/lovelace-logs",
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@testing-library/jest-dom": "^5.17.0",
